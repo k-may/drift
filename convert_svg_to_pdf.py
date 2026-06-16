@@ -1,8 +1,8 @@
 from pathlib import Path
 import cairosvg
 
-input_dir = Path("./freestyle_scaled_svg")
-output_dir = Path("./freestyle_scaled_svg_exports")
+input_dir = Path("./a3_artboards")
+output_dir = Path("./a3_artboards_exports")
 
 print(f"Converting SVG files from '{input_dir}' to PDF files in '{output_dir}'...")
 output_dir.mkdir(exist_ok=True)
